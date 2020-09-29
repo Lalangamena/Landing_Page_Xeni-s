@@ -1,0 +1,114 @@
+html {height: 100%;}
+body{
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+    background-image: url(pics/BG1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+a, a:hover {
+    color: #ffffff;
+    text-decoration: none;}
+#Header{
+    max-width: 1139px;
+    min-width: 768px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: hidden;
+    padding-top: 38px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{font-size: 18px;
+    float: left;}
+nav ul {
+    margin: 0;
+    padding: 0;}
+nav li {
+    display: inline-block; 
+    list-style-type: none;
+    padding: 0px 10px;}
+nav img, label image {vertical-align: middle;
+}  
+
+.header-menu{float: right;}
+.header-menu .nav-item 
+{margin-right: 20px;}
+.header-menu .nav-item:last-child {
+    margin: 0;
+}
+.white-block{
+    width: 365px; 
+    height: 470px; 
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5px;
+    margin: 100px auto 50px;
+    padding-bottom: 30px;}
+.purple-block{
+    position: relative;
+    width: 324px;
+    height: 100px;
+    top:  -25pt;
+    margin: 0 auto;
+    padding: 30px 0;
+    background: linear-gradient(90deg, #AB47BC 0%, #7B1FA2 100%);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5), 0px 4px 25px rgba(0, 0, 0, 0.12);
+    border-radius: 5px;}
+h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;}
+.sm-icons{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 0px 25px;
+    z-index: 1;}
+.sm-icons .nav-item {
+    margin-right: 30px;
+    }
+.slogan{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+    margin: -20px 0 30px;
+}
+#Sign-up{
+    text-align: center;}
+.Contacts{
+    margin-bottom: 30px;}
+input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #d2d2d2;
+    color: #999;
+    font-size: 14px;
+    width: 255px;
+    padding: 10px 0;   
+    background: transparent;
+    margin: 15px;} 
+
+input:focus{
+        outline: none;
+    }
+label {
+        margin-right: 10px;}
+.button{
+    background: transparent;
+    color: #AB47BC;
+    border: none;
+    font-size: 14px;
+    font-style: bold;
+    cursor: pointer;
+    margin-left: 130px;
+    margin-top: 50px;
+    z-index: 1;}
